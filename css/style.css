@@ -173,6 +173,10 @@ footer {
 
 /* Media Queries */
 @media(max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+    
     header #branding, 
     header nav,
     header nav li,
