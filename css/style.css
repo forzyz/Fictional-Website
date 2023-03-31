@@ -81,6 +81,7 @@ header a:hover {
 
 /* Showcase */
 #showcase {
+    width: 100%;
     min-height: 400px;
     background: url('../img/showcase.jpg') no-repeat 0px -400px;
     text-align: center;
@@ -173,10 +174,6 @@ footer {
 
 /* Media Queries */
 @media(max-width: 768px) {
-    html {
-        overflow-x: hidden;
-    }
-    
     header #branding, 
     header nav,
     header nav li,
